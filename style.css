@@ -18,7 +18,7 @@ body {
   text-align: center;
   width: 50%;
   max-width: 600px;
-  background-color: #27272a;
+  background-color: #18181b;
 }
 
 h1 {
@@ -33,7 +33,7 @@ textarea {
   margin-bottom: 20px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #3f3f46;
+  border: 1px solid ;
   resize: none;
 }
 
@@ -55,24 +55,25 @@ textarea#outputText {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px; /* Espaçamento ao redor do banner */
-  box-sizing: border-box; /* Inclui padding no cálculo da largura */
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .banner img {
   height: 120px;
   width: 100%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .container {
+  align-self: center;
   width: 90%;
-  max-width: 800px; /* Limita a largura máxima do container */
-  margin: 20px auto; /* Centraliza o container e adiciona espaçamento superior/inferior */
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
-  background-color: #27272a; /* Cor de fundo clara */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para o container */
+  background-color: #27272a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 main {

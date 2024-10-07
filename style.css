@@ -83,3 +83,43 @@ main {
   top: 0px;
   position: absolute;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+
+  .banner img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  textarea {
+    height: 100px;
+    font-size: 12px;
+  }
+
+  .banner img {
+    height: 80px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+}

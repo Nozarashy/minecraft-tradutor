@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" itemscope itemtype="http://schema.org/WebPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ferramenta de tradução para Minecraft. Digite o texto e converta para formatos usados no jogo.">
+    <meta name="description" content="Ferramenta de tradução para Minecraft. Digite o texto e converta para formatos usados no jogo." itemprop="description">
     <meta name="keywords" content="Minecraft, tradutor Minecraft, conversor de texto Minecraft, Minecraft translation tool">
-    <meta name="author" content="Paulo Soares">
-    <meta property="og:title" content="Minecraft Tradutor">
-    <meta property="og:description" content="Ferramenta online para traduzir textos usados no Minecraft.">
+    <meta name="author" content="Paulo Soares" itemprop="author">
+    <meta property="og:title" content="Minecraft Tradutor" itemprop="name">
+    <meta property="og:description" content="Ferramenta online para traduzir textos usados no Minecraft." itemprop="description">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mine-tradutor.com">
-    <meta property="og:image" content="public/banner.webp">
+    <meta property="og:url" content="https://mine-tradutor.com" itemprop="url">
+    <meta property="og:image" content="public/banner.webp" itemprop="image">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Minecraft Tradutor">
     <meta name="twitter:description" content="Ferramenta online para traduzir textos usados no Minecraft.">
     <meta name="twitter:image" content="public/banner.webp">
     <link rel="icon" href="public/favicon.ico" type="image/x-icon">
     <meta name="google-adsense-account" content="ca-pub-7460244156418858">
-    <title>Minecraft Tradutor</title>
+    <title itemprop="name">Tradutor Minecraft Online - Converta Textos e Símbolos para o Jogo</title>
     <link rel="stylesheet" href="style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7460244156418858"
      crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
-        <div class="banner">
-            <img src="public/banner.png" alt="Minecraft Tradutor Banner">
+        <div class="banner" itemscope itemtype="http://schema.org/ImageObject">
+            <img src="public/banner.png" alt="Minecraft Tradutor Banner" itemprop="contentUrl">
         </div>
         <div class="container">
-            <h1>Minecraft Tradutor</h1>
-            <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
-            <textarea id="outputText" placeholder="Texto convertido aparecerá aqui..." readonly></textarea>
-            <img src="public/tabela de simbolos.png" alt="Tabel de Simbolos">
+            <h1 itemprop="headline">Minecraft Tradutor</h1>
+            <div itemscope itemtype="http://schema.org/SoftwareApplication">
+                <meta itemprop="applicationCategory" content="Utility">
+                <meta itemprop="operatingSystem" content="All">
+                <meta itemprop="name" content="Minecraft Tradutor">
+                <meta itemprop="description" content="Ferramenta online para traduzir textos usados no Minecraft.">
+                <textarea id="inputText" placeholder="Digite o texto aqui..." itemprop="text"></textarea>
+                <textarea id="outputText" placeholder="Texto convertido aparecerá aqui..." readonly></textarea>
+                <img src="public/tabela de simbolos.png" alt="Tabela de Símbolos" itemprop="image">
+            </div>
         </div>
         <footer>
             <p>&copy; 2024 Paulo Soares. Todos os direitos reservados.</p>

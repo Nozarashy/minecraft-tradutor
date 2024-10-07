@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /public/banner.png
+Disallow: /public/tabela de simbolos.png
+Sitemap: https://mine-tradutor.com/sitemap.xml

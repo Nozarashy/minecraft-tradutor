@@ -80,6 +80,10 @@ textarea#outputText {
   color: white;
 }
 
+.container h2 {
+  color: white;
+}
+
 .container img {
   width: 100%;
 }
@@ -100,6 +104,10 @@ footer {
   position: relative; 
   bottom: 0; 
   width: 100%;
+}
+
+section.container p {
+  color: white
 }
 
 @media (max-width: 768px) {
